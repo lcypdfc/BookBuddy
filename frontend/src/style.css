@@ -1,0 +1,137 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+.main-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.summary {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.qa-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fafafa;
+  padding: 16px;
+  margin-bottom: 20px;
+  box-shadow: 1px 2px 6px rgba(0,0,0,0.05);
+}
+
+.question {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1a3d7c;
+}
+
+.answer {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #0b486b;
+}
+
+.context {
+  margin-top: 12px;
+  font-size: 14px;
+  color: #444;
+}
+
+.meta {
+  margin-top: 8px;
+  font-size: 12px;
+  color: #888;
+}
+
+.fallback {
+  margin-left: 8px;
+  color: #d00;
+  font-size: 14px;
+}
+.upload-section, .ask-section {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  width: 60%;
+  padding: 8px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #0b486b;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #063147;
+}
+
+.qa-card.loading {
+  background-color: #f9f9f9;
+  border-left: 4px solid #007bff;
+  padding: 12px;
+  margin-top: 12px;
+  font-style: italic;
+}
+
+.qa-card.error {
+  background-color: #fff5f5;
+  border-left: 4px solid #ff4d4f;
+  padding: 12px;
+  margin-top: 12px;
+}
+
+
+
+.custom-button {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #0b486b;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.custom-button:hover {
+  background-color: #063147;
+}
+
+.custom-input {
+  padding: 8px 12px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  height: 38px;
+  box-sizing: border-box;
+}
+
+.custom-select {
+  padding: 6px 10px;
+  border-radius: 4px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  background-color: white;
+}
