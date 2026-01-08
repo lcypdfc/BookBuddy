@@ -130,23 +130,6 @@ BookBuddy is a modular pipeline for building a Retrieval-Augmented Generation (R
 - Chat session memory using MongoDB Atlas
 - Persistent session and user identification across page reloads
 
----
-
-## Project Structure
-
-```
-bookbuddy/
-├── backend-node/           ← Node.js backend server
-│   ├── routes/             ← Upload, ask, history endpoints
-│   ├── utils/              ← MongoDB connection helper
-│   └── server.js           ← Entry point
-├── frontend/               ← React frontend app
-│   ├── src/
-│   │   └── components/     ← QACard, MathText, etc.
-│   └── App.jsx             ← Main application logic
-├── materials/              ← Uploaded PDFs and extracted content
-├── scripts/                ← PDF to QA generator and FAISS indexing
-```
 
 ---
 
